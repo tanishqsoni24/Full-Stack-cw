@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        ul{
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            padding: 10px;
+        }
+
+        .list-items{
+            cursor: pointer;
+        }
+
+        .list-items a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .list-items:hover{
+            /* background-color: rgb(255, 255, 255); */
+            color: black;
+        }
+
+        main{
+            display: flex;
+            justify-content: space-around;
+            /* align-items: center; */
+            height: 100vh;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="list-items"><a href="/index.html">Home</a></li>
+            <li class="list-items"><a href="/about.html">Personal Details</a></li>
+            <li class="list-items"><a href="/prof_about.html">Professional Details</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h3>Welcome To my first website of class!</h3>
+    </main>
+</body>
+</html>
