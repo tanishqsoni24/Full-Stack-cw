@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Info System</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        li{
+            list-style: none;
+        }
+
+        td{
+            padding: 0.5rem 0.5rem;
+            text-align: center;
+        }
+
+        .navbar{
+            display: flex;
+            justify-content: space-around;
+            box-shadow: 0px 0px 20px 0px #00000024;
+            padding: 1rem 0;
+        }
+
+        .nav-items{
+            display: flex;
+            align-items: center;
+        }
+
+        .brand-name{
+            font-size: small;
+        }
+
+        .nav-items li{
+            padding: 0 0.5rem; 
+            font-size: small;
+        } 
+
+        .main{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .main-table, .side-tab{
+            margin: 5rem 0 0 0;
+        }
+
+        .container-side{
+            background: #efefef;
+            border-radius: 1.25rem;
+            padding: 2rem;
+        }
+
+        .container-side h5{
+            font-size: x-large;
+            margin: 0.5rem 0;
+        }
+        
+        .footer{
+            background: rgb(3, 22, 3);
+            color: white;
+            width: 100%;
+            height: 50vh;
+            margin: 5rem 0;
+        }
+        
+        .footer-header{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .foot-cont{
+            padding: 2rem 0;
+        }
+
+        .foot-cont h3{
+            padding-bottom: 0.5rem ;
+        }
+
+        .foot-cont ul li{
+            font-size: medium;
+            color: gray;
+            padding: 0.2rem 0;
+        }
+
+        .footer-footer{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <h2 class="brand-name">Book Recommendation Sytem</h2>
+            <ul class="nav-items unorder">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Testimonials</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+    <section class="main">
+        <main class="tab-sec">
+            <table border="2" class="main-table">
+                <tr>
+                    <td colspan="5">Book Recommendation Sytem</td>
+                </tr>
+                <tr>
+                    <td>S.No</td>
+                    <td>Name</td>
+                    <td>Price</td>
+                    <td>link</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <ul  class="unorder">
+                            <li>Computer Network</li>
+                            <li>Network Engineering</li>
+                            <li>CSS</li>
+                            <li>Web Development</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul class="unorder"> 
+                            <li>$24</li>
+                            <li>$50</li>
+                            <li>$60</li>
+                            <li>$70</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul class="unorder"> 
+                            <li><a href="#">https://www.books.com/abdef-uaf45</a></li>
+                            <li><a href="#">https://www.books.com/abdef-uaf45</a></li>
+                            <li><a href="#">https://www.books.com/abdef-uaf45</a></li>
+                            <li><a href="#">https://www.books.com/abdef-uaf45</a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </main>
+        <aside class="side-tab">
+            <div class="container-side">
+                <h5>Trending Books</h5>
+                <ol>
+                    <li>C++</li>
+                    <li>Java</li>   
+                </ol>
+            </div>
+        </aside>
+    </section>
+    <footer class="footer">
+        <div class="footer-header">
+            <div class="foot-cont">
+                <h3>Title</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>Credits</li>
+                    <li>Credits</li>
+                    <li>API</li>
+                </ul>
+            </div>
+            <div class="foot-cont">
+                <h3>Title</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>Credits</li>
+                    <li>Credits</li>
+                    <li>API</li>
+                </ul>
+            </div>
+            <div class="foot-cont">
+                <h3>Title</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>Credits</li>
+                    <li>Credits</li>
+                    <li>API</li>
+                </ul>
+            </div>
+            <div class="foot-cont">
+                <h3>Title</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>Credits</li>
+                    <li>Credits</li>
+                    <li>API</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-footer">
+            <h6>2023 &copy; Design and Developed By <a href="https://www.linkedin.com/in/tanishqsoni">Tanishq Soni</a></h6>
+        </div>
+    </footer>
+</body>
+</html>
